@@ -1,0 +1,57 @@
+.flexbox{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: white;
+    border-radius:7px;
+    flex-direction: column;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    flex-grow: initial;
+    width: 623px;
+    margin-top: 20px;
+   
+}
+.flexbox:nth-child(2){
+   
+    border-top-width: 10px;
+    border-top-color: #237c08;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+   
+.box{
+    color:rgb(0, 0, 0);
+    border-top: lightgray;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.box:nth-child(1){
+    align-self:flex-start;
+}
+body{
+    background-color: #e8f4ea;
+}
+img{
+    border-radius: 10px;
+   
+}
+.top-image{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.box:nth-child(3){
+    color:red;
+}
+.bottom-button{
+   
+}
